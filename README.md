@@ -1,2 +1,5 @@
-# JSON for Column Formatting to Customise SharePoint Online Columns
+# Customise SharePoint Online Columns Using JSON - Column Formatting
+
+![Alt text](https://github.com/sohailmerchant/spo-columnformatting/blob/master/project%20management/status.png?raw=true)
+
 
