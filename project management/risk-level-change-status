@@ -3,9 +3,7 @@
     "children": [
         {
             "elmType": "span",
-            "style": {
-                "padding-right": "4px",
-                "attributes": {
+                   "attributes": {
                     "class": {
                         "operator": "?",
                         "operands": [
@@ -46,51 +44,52 @@
                             }
                         ]
                     },
+                   
                     "iconName": {
-                       
-                            "padding-left": "14px",
-                            "operator": "?",
-                            "operands": [
-                                {
-                                    "operator": "==",
-                                    "operands": [
-                                        "@currentField",
-                                        "Down"
-                                    ]
-                                },
-                                "SortDown",
-                                {
-                                    "operator": "?",
-                                    "operands": [
-                                        {
-                                            "operator": "==",
-                                            "operands": [
-                                                "@currentField",
-                                                "Up"
-                                            ]
-                                        },
-                                        "SortUp",
-                                        {
-                                            "operator": "?",
-                                            "operands": [
-                                                {
-                                                    "operator": "==",
-                                                    "operands": [
-                                                        "@currentField",
-                                                        "Level"
-                                                    ]
-                                                },
-                                                "Split",
-                                                ""
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
+                        "operator": "?",
+                        "operands": [
+                            {
+                                "operator": "==",
+                                "operands": [
+                                    "@currentField",
+                                    "Down"
+                                ]
+                            },
+                            "SortDown",
+                            {
+                                "operator": "?",
+                                "operands": [
+                                    {
+                                        "operator": "==",
+                                        "operands": [
+                                            "@currentField",
+                                            "Up"
+                                        ]
+                                    },
+                                    "SortUp",
+                                    {
+                                        "operator": "?",
+                                        "operands": [
+                                            {
+                                                "operator": "==",
+                                                "operands": [
+                                                    "@currentField",
+                                                    "Level"
+                                                ]
+                                            },
+                                            "Split",
+                                            ""
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
                     }
-                
-            }
+                },
+                "style":{
+                    "padding-right":"10px"
+                }
+            
         },
         {
             "elmType": "span",
